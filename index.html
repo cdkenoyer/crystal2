@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Gem Match</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/match.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/match.css">
 
 
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center"><strong>Crystal Match</strong></h1>
+            <p>Object: Match your current total to the given number to win. If you go over you loose. Click on the
+                crystal images below to add to your current total. The crystals are assigned a random value at the
+                beginning of each game.</p>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-6 col-md-3">
+                <div class="panel ">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Wins</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 id="winDisplay">Panel content</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Losses</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 id="lossDisplay">Panel content</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Number to Match</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 id="matchDisplay">Panel content</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Current Total</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 id="currTotalDisplay">Panel content</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
 </body>
+
 </html>

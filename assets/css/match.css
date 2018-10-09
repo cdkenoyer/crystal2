@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: rgb(0, 255, 136);
+}
+
+.panel-bac {
+    background-color: blue;
+}
+
+.panel-default {
+    background-color: brown;
+}
+
+.panel-heading {
+    background-color: yellow;
+}
+
+.panel-title {
+    background-color: rgb(241, 11, 11);
+    text-align: right;
+}
+.panel-body {
+    /*background-color: aqua;*/
+    text-align: right;
+    color: blueviolet;
+}
+
